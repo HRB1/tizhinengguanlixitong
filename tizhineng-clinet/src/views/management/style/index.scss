@@ -1,0 +1,106 @@
+.yggl_wrap {
+    width: 100%;
+    height: 100%;
+    padding: 15px;
+    h2 {
+        width: 100%;
+        height: 31px;
+        line-height: 14px;
+        border-bottom: 1px solid #ccc;
+    }
+    .yggl_serch {
+        width: 100%;
+        margin-top: 10px;
+        input {
+            width: 230px;
+        }
+        button.ant-btn {
+            height: 23px;
+            padding: 0 10px;
+            background: #AEBCE0;
+            margin-left: 10px;
+            border: 0;
+            color: #000;
+        }
+    }
+    .yggl_list {
+        width: 100%;
+        margin-top: 20px;
+        .ant-table table {
+            box-sizing: border-box;
+            border-radius: 4px 4px 0 0;
+            border-collapse: separate;
+            border-spacing: 0;
+            border: 1px solid #ccc;
+            font-size: 14px;
+            height: 100%;
+            td.listOne {
+                color: #4783C0;
+                font-size: 13px;
+            }
+            tr.ant-table-row {
+                border-bottom: none;
+                text-align: center;
+            }
+        }
+        .ant-table-content{
+            padding: 0;
+        }
+        .ant-table-middle > .ant-table-content > .ant-table-body > table > .ant-table-thead > tr > th{
+            padding: 12px 2px;
+            box-sizing: border-box;
+        }
+        .ant-table-middle > .ant-table-content > .ant-table-body > table> .ant-table-tbody>tr{
+            height: 50px !important;;
+        }
+        .ant-table-middle > .ant-table-content > .ant-table-body > table> .ant-table-tbody>tr>td{
+            padding: 12px 2px !important;
+        }
+        thead.ant-table-thead tr th {
+            background: #C3D6F4;
+            text-align: center;
+            width:100px !important;
+        }
+    }
+
+    .operation {
+        width: 100%;
+        margin: 15px 0;
+        button {
+            border: none;
+            height: 25px;
+            padding: 0 6px;
+            margin-right: 10px;
+            color: #fff;
+        }
+        .upload{
+            display: inline-block !important;
+        }
+
+        .newAdd {
+            background: #7EB91F;
+        }
+
+        .delete {
+            background: #55AAE0;
+        }
+
+        .in {
+            background: #FE9901;
+        }
+
+        .out {
+            background: #DD6360;
+        }
+        .download{
+            background: rgb(34, 200, 230);
+        }
+        button:hover {
+            color: #eee;
+            border: none;
+        }
+    }
+}
+.ant-pagination{
+    margin:10px 0 !important;
+}

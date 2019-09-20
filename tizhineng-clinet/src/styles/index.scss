@@ -1,0 +1,106 @@
+.nav .ant-menu-item-selected{
+  background-color: #1e3d73!important;
+}
+.links{
+  a.active{
+    background: #fff;
+  }
+}
+.aside>div>ul{
+    background: 0;
+    .ant-menu-item{
+      width: 100%;
+    }
+    .ant-menu-item-selected{
+      background-color: #aebcdf!important;
+    }
+    .ant-menu-submenu-selected{
+      background: #aebcdf;
+      .ant-menu-submenu-title{
+        position: relative;
+        &:after{
+          content: "";
+          position: absolute;
+          left: 0;
+          top: 0;
+          width: 4px;
+          background: #0057ff;
+          height: 100%;
+        }
+      }
+      .ant-menu-item-selected{
+        position: relative;
+        &:after{
+          content: "";
+          position: absolute;
+          right: 0;
+          top: 50%;
+          width: 0;
+          height: 0;
+          border: 6px solid transparent;
+          border-right-color: #0057ff;
+          transform: translateY(-50%);
+        }
+      }
+    }
+    .ant-menu-inline{
+      background: 0;
+    }
+    .ant-menu-item,.ant-menu-submenu-title{
+      font-size: 13px;
+      height: 52px!important;
+      line-height: 52px!important;
+    }
+    .ant-menu-submenu-title{
+      font-size: 15px;
+    }
+    >.ant-menu-item-selected{
+      position: relative;
+      &:after{
+        content: "";
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 4px;
+        background: #0057ff;
+        height: 100%;
+      }
+    }
+}
+.ant-layout-content{
+  flex: 1;
+}
+.choose{
+  height: 24px;
+  line-height: 24px;
+  margin: 0;
+  display: flex;
+  span{
+    display: inline-block;
+    border-radius: 3px;
+  }
+  .out{
+    padding: 0 13px;
+    background: #d8dde1;
+    margin-right: 16px;
+  }
+  .ant-calendar-picker-input{
+    width: 196px;
+    height: 25px;
+    .ant-calendar-range-picker-separator{
+      line-height: 14px;
+    }
+  }
+}
+.pagination{
+  margin-top: 10px;
+  .ant-pagination{
+    float: right;
+  }
+}
+.ant-table-thead{
+  background: #c8dbf9;
+  th{
+    background: 0!important;
+  }
+}

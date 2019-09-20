@@ -1,0 +1,16 @@
+.tab{
+  line-height: 39px;
+  border-bottom: 1px solid #ebedec;
+  padding-left: 16px;
+  margin: 0;
+  span{
+    display: inline-block;
+    font-size: 13px;
+    padding: 0 14px;
+    margin-right: 28px;
+    cursor: pointer;
+    &.active{
+      border-bottom: 2px solid #f17b31;
+    }
+  }
+}

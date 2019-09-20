@@ -1,0 +1,125 @@
+main{
+    background: rgb(243, 243, 243);
+}
+.wrapper{
+    width: 82%;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .left{
+        width: 220px;
+        height: 100%;
+        padding-top: 45px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        .userImg{
+            width: 135px;
+            height: 135px;
+            border-radius: 50%;
+            margin: 10px;
+        }
+        p{
+            margin: 0;
+            font-size: 12px;
+            font-weight: 400;
+            font-family: '宋体'
+
+        }
+    }
+    .right-main{
+        flex: 1;
+        height: 100%;
+        padding-top: 16px;
+    }
+    .right{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        .date{
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            >.rgt-item:nth-child(2){
+                margin-left: 5%;
+                flex:1;
+            }
+        }
+        .rgt-item{
+            width: 47%;
+            min-height: 235px;
+            background: #fff;
+            border-radius: 10px;
+            margin-top: 33px;
+            .cloud-box{
+                width: 95%;
+                min-height: 235px;
+                margin-right:40px;
+                display: flex;
+                flex-direction: column;
+                .pb-m{
+                    width: 90%;
+                    margin: 5px auto;
+                    display: flex;
+                    justify-content:space-between;
+                    align-items: center;
+                    h3{
+                        color:rgb(7, 33, 184);
+                        .line{
+                            width: 3px;
+                            background: rgb(26, 3, 156);
+                            margin-right: 10px;
+                        }
+                    }
+                    .current{
+                        color:rgb(236, 130, 31);
+                    }
+                }
+                .cloud-item{
+                    flex: 1;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    .lef{
+                        width: 220px;
+                        height: 220px;
+                        font-size:65px;
+                        color: rgb(238, 140, 13);
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                    }
+                    .rgt{
+                        flex: 1;
+                        color:rgb(79, 177, 235);
+                        .ctr-item{
+                            margin: 15px 5px;
+                            white-space: nowrap;
+                            span{
+                                padding: 10px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .Attendance{
+            .echarts-for-react{
+                height: 150px!important;
+            }
+        }
+        .calendar{
+            width: 288px;
+            background: none;
+        }
+        .tab{
+            width: 65%;
+            background: none;
+            border-radius:0;
+        }
+    }
+}
+

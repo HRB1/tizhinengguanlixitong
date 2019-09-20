@@ -1,0 +1,19 @@
+.type-head{
+        width: 100%;
+        // height: 45px;
+        display: flex;
+        border-bottom: 1px solid #d8dde1;
+        span{
+            display: flex;
+            height: 100%;
+            margin: 0 25px;
+            font-size: 13px;
+            line-height: 45px;
+            color:#999;
+            &.active{
+                border-bottom: 2px solid #f38e40;
+                font-weight: bold;
+            }
+        }
+
+    }

@@ -1,0 +1,1115 @@
+.ant-layout{
+    width: 100%;
+    flex: 1;
+    .ant-layout-content{
+        width: 100%;
+        overflow: auto;
+        .el-wrap{
+            width: 100%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            position: relative;
+            .shade{
+                width: 100%;
+                height: 100%;
+                background: rgba($color: #000000, $alpha: .5);
+                position: absolute;
+                z-index:10;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                img{
+                    width: 50%;
+                    height: 60%;
+                    background: #fff;
+                }
+            }
+            .ant-form{
+                .ant-form-item {
+                margin-bottom: 0;
+            }
+            }
+            .helper-content{
+                width: 100%;
+                display: flex;
+                flex-direction: column;
+                .helper-main{
+                    width: 100%;
+                    display: flex;
+                    flex-wrap: wrap;
+                    padding: 0 1%;
+                    justify-content: space-between;
+                    .items{
+                        width: 49.4%;
+                        height: 295px;
+                        background: #fff;
+                        margin-top: 10px;
+                        .title{
+                            width: 100%;
+                            height: 35px;
+                            display: flex;
+                            align-items: center;
+                            padding:0 3%;
+                            justify-content: space-between;
+                            p{
+                                width: 100px;
+                                height: 100%;
+                                line-height: 35px;
+                                margin-bottom: 0;
+                                color:#0a429f;
+                                display: flex;
+                                span{
+                                    width: 3.5%;
+                                    height: 16px;
+                                    display: block;
+                                    background: #0a429f;
+                                    margin-top: 10px;
+                                    margin-right: 7px;
+                                }
+                            }
+                            .ts{
+                                color:#dadada;
+                                font-size:14px; 
+                                margin-right: 5px;
+                            }
+                            .ant-select-enabled{
+                                height: 28px;
+                                font-size: 13px;
+                                .ant-select-selection{
+                                    width: 110px;
+                                    height: 100%;
+                                    border-radius: 0;
+                                }
+                            }
+                        }
+                        .he-content{
+                            width: 100%;
+                            height: 260px;
+                            display: flex;
+                            flex-direction: column;
+                            align-items: center;
+                            justify-content: center;
+                            padding-top: 40px;
+                            .num{
+                                width: 100%;
+                                font-size: 16px;
+                                color:#e1e1e1;
+                                display: flex;
+                                align-items: center;
+                                justify-content: center;
+                                margin-bottom: 10px;
+                                b{
+                                    font-size: 33px;
+                                    color:#f49032;
+                                    margin-right: 5px;
+                                    font-weight: normal;
+                                }
+                            }
+                            .ts{
+                                color:#a3a3a3;
+                                font-size: 12px;
+                                margin-top: 100px;
+                            }
+                        }
+                    }
+                }
+            }
+            h2{
+                width: 100%;
+                height: 40px;
+                line-height: 40px;
+                padding: 0 30px;
+                margin-bottom: 0;
+                border-bottom: 1px solid #cbd0d6;
+                font-weight: bold;
+                font-size: 17px;
+                color:#777;
+                margin-bottom: 0;
+            }
+            .el-boxs{
+                display: flex;
+                width: 100%;
+                height: 140px;
+                padding: 0 10%;
+                .ant-form-item-control-wrapper{
+                    width: 100%;
+                    height: 100%;
+                    .ant-form-item-control{
+                        width: 100%;
+                        height: 100%;
+                        position: relative;
+                        .ant-form-item-children{
+                        display: flex;
+                        width: 100%;
+                        height: 100%;
+                        align-items: center;
+                        z-index:9;
+                        .lab{
+                            
+                            height: 120px;
+                            color:#6c6c6c;
+                            font-size: 13px;
+                            width: 145px;
+                            font-weight: 550;
+                            display: flex;
+                            justify-content: flex-end;
+                            align-items: center;
+                            em{
+                                margin-left: 10px;
+                            }
+                        }
+                        .sele{
+                            background: #fff;
+                            flex: 1;
+                            height: 100%;
+                            padding-top:10px;
+                            border: 1px solid #cbd0d6;
+                            border-bottom: 0;
+                            border-top: 0;
+                        }
+                        em{
+                            color:red;
+                            font-size: 19px;
+                            margin-right: 5px;
+                        }
+                        .text{
+                            height: 110px;
+                            width: 75%;
+                            margin-left: 30px;
+                            border-radius: 0;
+                        }
+                        .ant-upload{
+                            border: 1px solid #b9b9b9;
+                            background: #eee;
+                            width: 90px;
+                            height: 88px;
+                            margin-right: 0;
+                            margin-bottom: 0;
+                            margin-left: 30px;
+                            font-size: 12px;
+                            border-radius: 0;
+                            i{
+                                width: 18px;
+                                height: 18px;
+                                background: #a9a9a9;
+                                color: #fff;
+                                display: flex;
+                                justify-content: center;
+                                align-items: center;
+                                margin-left: 25px;
+                                border-radius: 50%;
+                                margin-bottom: 5px;
+                            }
+                            img{
+                                width: 100%;
+                                height: 100%;
+                            }
+                        }
+                        }
+                        .ant-form-explain{
+                            font-size: 13px;
+                            position: absolute;
+                            right: 115px;
+                            top:60px;
+                            z-index: 99;
+                        }
+                    }
+                    
+                }
+            }
+            .el-boxss{
+                display: flex;
+                width: 100%;
+                margin-bottom: 0px;
+                height: 120px;
+                padding: 0 10%;
+                .ant-form-item-control-wrapper{
+                    width: 100%;
+                    height: 100%;
+                    .ant-form-item-control{
+                        width: 100%;
+                        height: 100%;
+                        position: relative;
+                        .ant-form-item-children{
+                        display: flex;
+                        width: 100%;
+                        height: 100%;
+                        align-items: center;
+                        z-index:9;
+                        .lab{
+                            
+                            height: 120px;
+                            color:#6c6c6c;
+                            font-size: 13px;
+                            width: 145px;
+                            font-weight: 550;
+                            display: flex;
+                            justify-content: flex-end;
+                            align-items: center;
+                            em{
+                                margin-left: 10px;
+                            }
+                        }
+                        .sele{
+                            background: #fff;
+                            flex: 1;
+                            height: 100%;
+                            padding-top:10px;
+                            border: 1px solid #cbd0d6;
+                            border-bottom: 0;
+                            border-top: 0;
+                        }
+                        em{
+                            color:red;
+                            font-size: 19px;
+                            margin-right: 5px;
+                        }
+                        .text{
+                            height: 110px;
+                            width: 75%;
+                            margin-left: 30px;
+                            border-radius: 0;
+                        }
+                        .ant-upload{
+                            border: 1px solid #b9b9b9;
+                            background: #eee;
+                            width: 90px;
+                            height: 88px;
+                            margin-right: 0;
+                            margin-bottom: 0;
+                            margin-left: 30px;
+                            font-size: 12px;
+                            border-radius: 0;
+                            i{
+                                width: 18px;
+                                height: 18px;
+                                background: #a9a9a9;
+                                color: #fff;
+                                display: flex;
+                                justify-content: center;
+                                align-items: center;
+                                margin-left: 25px;
+                                border-radius: 50%;
+                                margin-bottom: 5px;
+                            }
+                            img{
+                                width: 100%;
+                                height: 100%;
+                            }
+                        }
+                        }
+                          .ant-form-explain{
+                            font-size: 13px;
+                            margin-left: 285px;
+                            position: absolute;
+                            top:50px;
+                            z-index: 99;
+                        }
+                    }
+                    
+                }
+            
+            }
+            .label{
+                display: flex;
+                width: 100%;
+                height: 60px;
+                padding: 0 10%;
+                .ant-form-item-label{   
+                    height: 60px; 
+                }
+                .ant-form-item-control-wrapper{
+                    flex: 1;
+                    .ant-form-item-control{
+                        width: 100%;
+                        height: 100%;
+                        position: relative;
+                        .ant-form-item-children{
+                            display: flex;
+                            width: 100%;
+                            height: 100%;
+                            align-items: center;
+                            z-index:9;
+                            .lab{
+                                color: #6c6c6c;
+                                font-size: 13px;
+                                width: 145px;
+                                height: 100%;
+                                font-weight: 550;
+                                display: flex;
+                                justify-content: flex-end;
+                                align-items: center;
+                            }
+                            .sele{
+                                background: #fff;
+                                height: 100%;
+                                flex: 1;
+                                padding-top:10px;
+                                border: 1px solid #cbd0d6;
+                                border-top: 0;
+                            }
+                            em{
+                                color:red;
+                                font-size: 19px;
+                                margin-right: 5px;
+                                margin-top: 5px;
+                                margin-left: 10px;
+                            }
+                            .ant-upload{
+                                border: 1px solid #b9b9b9;
+                                background: #eee;
+                                width: 90px;
+                                height: 88px;
+                                margin-right: 0;
+                                margin-bottom: 0;
+                                margin-left: 35px;
+                            }
+                            .ant-select-selection{
+                                width: 130px;
+                                margin-left: 30px;
+                            }
+                            .ant-select-dropdown--single{
+                                    width: 130px;
+                                    #3dde7236-4fce-409e-b4ff-3a554bf704a7{
+                                        
+                                    width: 130px;
+                                    }
+                                    .listbox{
+                                    width: 130px;
+                                    li{
+                                        width: 130px;
+                                    }
+                                }
+                            }    
+                        }
+                        .ant-form-explain{
+                            font-size: 13px;
+                            margin-left:325px;
+                            position: absolute;
+                            top:20px;
+                            z-index: 99;
+                            
+                        }
+                    }
+                    
+                }
+            }
+            .btn{
+                width: 100%;
+                height: 50px;
+                margin-top: 40px;
+                .ant-form-item-control-wrapper{
+                    width: 100%;
+                    height: 100%;
+                    .ant-form-item-children{
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        button{
+                            width: 85px;
+                            margin: 0 30px;
+                        }
+                        .cancle{
+                            background: #cbcbcb;
+                            color:#fff;
+                        }
+                    }
+                }
+            }
+            .el-head{
+                height: 25px;
+                margin: 0 16px;
+                background: #c8dbf9;
+                margin-bottom: 1px; 
+                display: flex;
+                font-size: 11px;
+                padding: 0 1%;
+                line-height: 25px;
+                p{
+                    margin-right: 5px;
+                }
+                .ant-checkbox-wrapper{
+                    margin-left: 0;
+                    span{
+                            font-size: 11px;
+                            padding: 0px; 
+                            margin-right: 5px;
+                        }
+                    .ant-checkbox-checked::after{
+                        border: 0;
+                    }
+                    .ant-checkbox{
+                        width: 12px;
+                        height: 12px;
+                        .ant-checkbox-input{
+                            width: 12px;
+                            height: 12px;
+                            display: flex;
+                            align-items: center;
+                            span{
+                            width: 12px;
+                                height: 12px;  
+                            }
+                        
+                        }
+                        .ant-checkbox-inner{
+                                width: 12px;
+                                height: 12px;
+                                display: block;
+                            }
+                    }
+                }
+
+            }
+            .browse{
+                width: 100%;
+                height: 35px;
+                display: flex;
+                align-items: center;
+                padding: 0 16px;
+                padding-top: 10px;
+                img{
+                    width: 180px;
+                    height: 40px;
+                }
+                .score{
+                    display: flex;
+                    span{
+                        padding: 0 30px;
+                        font-size: 12px;
+                        color:#f17b31;
+                        height: 15px;
+                        border-right: 2px solid #a8aeac;
+                    }
+                    span:last-child{
+                        border-right: 0;
+                    }
+                }
+            }
+            .search-box{
+                width: 100%;
+                display: flex;
+                flex-direction: column;
+                margin-bottom: 10px;
+            }
+            .search{
+                width: 100%;
+                min-height: 45px;
+                background: #f5f5f5;
+                border-top: 1px solid #d8dde1;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                padding: 0 20px;
+                .box{
+                    display: flex;
+                    margin-right: 30px;
+                        .ant-btn:hover, .ant-btn:focus {
+                            color: #929292;
+                            background-color: #d8d8d8;
+                            border-color: #d8d8d8;
+                        }
+                    button{
+                        font-size: 12px;
+                        background: #d8d8d8;
+                        color:#929292; 
+                        margin-right: 10px;
+                        
+                    }
+                    i{
+                        font-size: 13px;
+                        color:#5a5a5a;
+                        font-weight: bold;
+                        margin: 0 10px;
+                    }
+                }
+                .boxs{
+                    display: flex;
+                    margin-right: 30px;
+                        .ant-btn:hover, .ant-btn:focus {
+                            color: #929292;
+                            background-color: #d8d8d8;
+                            border-color: #d8d8d8;
+                        }
+                    button{
+                        font-size: 12px;
+                        background: #d8d8d8;
+                        color:#929292; 
+                        margin-right: 10px;
+                        
+                    }
+                    i{
+                        font-size: 13px;
+                        color:#5a5a5a;
+                        font-weight: bold;
+                        margin: 0 5px;
+                    }
+                }
+                .time{
+                    flex: 5;
+                    display: flex;
+                    align-items: center;
+                    .ant-calendar-picker{
+                        width: 200px;
+                        color:#000;
+                        height: 25px;
+                        margin-right: 25px;
+                        .ant-calendar-picker-input{
+                            padding: 0;
+                            height: 26px;
+                            border-radius: 0;
+                        }
+                    }
+                    button{
+                        height: 27px;
+                        font-size: 13px;
+                        border-radius: 0;
+                    }
+                }
+                .sea{
+                    flex: 1;
+                    display: flex;
+                    justify-content: flex-end;
+                    button{
+                        width: 90px;
+                        height: 30px;
+                        border-radius: 0;
+                        font-size: 13px;
+                        i{
+                            margin-left: 0;
+                        }
+                    }
+                    .ant-btn:hover, .ant-btn:focus {
+                            color: #929292;
+                            background-color: #fff;
+                            border-color: #d8d8d8;
+                        }
+                }
+                .ant-form-item{
+                    margin-bottom: 0;
+                    font-size: 13px;
+                    .ant-form-item-control-wrapper{
+                        height: 100%;
+                        .ant-form-item-control{
+                            height: 100%;
+                        }
+                    }
+                }
+                
+            }
+            .find{
+                border-bottom:0;
+            }
+            .type-head{
+                    width: 100%;
+                    display: flex;
+                    border-bottom: 1px solid #d8dde1;
+                    span{
+                        display: flex;
+                        height: 100%;
+                        margin: 0 25px;
+                        font-size: 13px;
+                        line-height: 45px;
+                        color:#999;
+                        &.active{
+                            border-bottom: 2px solid #f38e40;
+                            font-weight: bold;
+                        }
+                    }   
+                }
+            .type-heads{
+                    width: 100%;
+                    height: 45px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                    .btns{
+                        height: 100%;
+                        display: flex;
+                        span{
+                            display: flex;
+                            height: 100%;
+                            margin: 0 25px;
+                            font-size: 13px;
+                            line-height: 45px;
+                            color:#999;
+                            &.active{
+                                border-bottom: 2px solid #f38e40;
+                                font-weight: bold;
+                            }
+                    }
+                    }
+                    button{
+                        width: 95px;
+                        margin-right: 3%;
+                        border-radius: 0;
+                        font-size: 13px;
+                        background: #eee;
+                    }
+                    .ant-btn{
+                        height: 30px;
+                    }
+
+                }
+            .show-text{
+                width: 100%;
+                height: 90px;
+                background: #f5f5f5;
+                box-shadow:0px 15px 10px -15px #ccc;
+                .top{
+                    width: 100%;
+                    height: 50%;
+                    display: flex;
+                    align-items: center;
+                    padding: 0 4%;
+                    .item{
+                        height: 100%;
+                        display: flex;
+                        align-items: center;
+                        margin-right: 120px;
+                        label{
+                            display: flex;
+                            align-items: center;
+                            font-size: 13px;
+                            color:#848484;
+                            margin-right: 5px;
+                        }
+                        .ant-select-enabled{
+                            height: 28px;
+                            font-size: 13px;
+                            .ant-select-selection{
+                                width: 170px;
+                                height: 25px;
+                                height: 100%;
+                                border-radius: 0;
+                                display: flex;
+                                align-items: center;
+                            }
+                        }
+                    }
+                }
+                .bottom{
+                    width: 100%;
+                    height: 50%;
+                    display: flex;
+                    justify-content: flex-end;
+                    align-items: center;
+                    padding: 0 2%;
+                    button{
+                        font-size: 13px;
+                        width: 50px;
+                        margin: 0 15px;
+                    }
+                    .clear{
+                        color:#1d51a5;
+                        background: #d8d8d8;
+                    }
+                }
+            }
+            .pie{
+                width: 98%;
+                height: 200px;
+                background: #fff;
+                border-radius: 3px;
+                margin-left: 1%;
+                margin-top: 15px;
+                display: flex;
+                .left{
+                    width: 270px;
+                    height: 100%;
+                    .title{
+                        width: 100%;
+                        height: 40px;
+                        display: flex;
+                        align-items: center;
+                        p{
+                            width: 100%;
+                            height: 40px;
+                            align-items: center;
+                            margin-bottom: 0;
+                            display: flex;
+                        }
+                        span{
+                            background: #0c44a1;
+                            width: 4px;
+                            height:19px;
+                            margin: 0 10px;
+                            display: block;
+                            margin-top: 2px;
+                        }
+                        b{
+                            color:#0c44a1;
+                            font-size: 14px;
+                        }
+                    }
+                    .le-context{
+                        width: 100%;
+                        display: flex;
+                        align-items: center;
+                        .el-detail{
+                            width: 50%;
+                            p{
+                                width: 100%;
+                                height: 30px;
+                                display: flex;
+                                align-items: center;
+                                margin-bottom: 0;
+                                color:#a2a3a5;
+                                font-size: 13px;
+                                margin:10px 0;
+                                em{
+                                    margin-left: 5px;
+                                }
+                            }
+                            .already{
+                                span{
+                                    width: 13px;
+                                    height: 13px;
+                                    background:#66bdf2; 
+                                    margin-right: 8px;
+                                }
+                                
+                            }
+                            .incomplete{
+                                span{
+                                    width: 13px;
+                                    height: 13px;
+                                    background:#ddd; 
+                                    margin-right: 8px;
+                                    
+                                }
+                            }
+                        }
+        
+                    }
+                }
+                .right{
+                    height: 100%;
+                    flex: 1;
+                    margin-left: 40px;
+                    .title{
+                        width: 100%;
+                        height: 40px;
+                        display: flex;
+                        align-items: center;
+                        justify-content: space-between;
+                        padding: 0 2%;
+                        em{
+                            color:#a9a9a9;
+                        }
+                        p{
+                            height: 40px;
+                            align-items: center;
+                            margin-bottom: 0;
+                            display: flex;
+                        }
+                        span{
+                            background: #0c44a1;
+                            width: 4px;
+                            height:19px;
+                            margin: 0 10px;
+                            display: block;
+                            margin-top: 2px;
+                        }
+                        b{
+                            color:#0c44a1;
+                            font-size: 14px;
+                        }
+                        em{
+                            margin-right: 1%;
+                        }
+                    }
+                    .le-context{
+                        width: 450px;
+                        height: 80px;
+                        display: flex;
+                        flex-wrap: wrap;
+                        align-items: center;
+                        justify-content: space-around;
+                        margin-top: 40px;
+                        margin-left: 30px;
+                        p{
+                            width:100px;
+                            height:30px;
+                            margin-bottom: 0;
+                            display: flex;
+                            color:#8d8d8d;
+                            font-size: 13px;
+                            align-items: center;
+                            span{
+                                width: 13px;
+                                height: 13px;
+                                background: #6cbff1;
+                                border-radius: 50%;
+                                margin-right: 8px;
+                            }
+                            b{
+                                font-weight: normal;
+                                margin-right: 10px;
+                            }
+                        }
+                    }
+                }
+            }
+            .line{
+                width: 98%;
+                height: 380px;
+                background: #fff;
+                border-radius: 3px;
+                margin-left: 1%;
+                margin-top: 15px;
+                .title{
+                        width: 100%;
+                        height: 40px;
+                        display: flex;
+                        align-items: center;
+                        p{
+                            width: 100%;
+                            height: 40px;
+                            align-items: center;
+                            margin-bottom: 0;
+                            display: flex;
+                        }
+                        span{
+                            background: #0c44a1;
+                            width: 4px;
+                            height:19px;
+                            margin: 0 10px;
+                            display: block;
+                            margin-top: 2px;
+                        }
+                        b{
+                            color:#0c44a1;
+                            font-size: 14px;
+                        }
+                    }
+            }
+            .content{
+                width: 100%;
+                height: 100%;
+                padding: 0 16px;
+                .shop-title{
+                    width: 100%;
+                    height: 40px;
+                    margin-bottom: 0;
+                    border-bottom: 2px solid #f17b31;
+                    h3{
+                        color:#747474;
+                        font-size: 18px;
+                        line-height:40px;
+                    }
+                }
+                .shop-content{
+                    width: 100%;
+                    .item{
+                        width: 100%;    
+                        display: flex;
+                        flex-wrap: wrap;
+                    }
+                    dl{
+                        width: 20%;
+                        height: 300px;
+                        border: 1px solid #e6e6e6;
+                        border-top: 0;
+                        margin-bottom: 0;
+                        dt{
+                            width: 100%;
+                            height: 70%;
+                            padding:0 10%;
+                            padding-top:10%;
+                            img{
+                                width: 100%;
+                                height: 100%;
+
+                            }
+                        }
+                        dd{
+                            width: 100%;
+                            height: 30%;
+                            padding: 0 10%;
+                            font-size: 12px;
+                            color:#343434;
+                            padding-top: 5%;
+                            p{
+
+                                margin-bottom: 0;
+                                span{
+                                    color:#f07a30;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            .el-content{
+                width: 100%;
+                padding: 0 2%;
+                flex: 1;
+                .heads{
+                    width: 100%;
+                    height: 50px;
+                    p{
+                        height: 100%;
+                        font-size: 16px;
+                        line-height: 50px;
+                        padding: 0 1%;
+                        b{
+                            font-weight: normal;
+                            margin-right: 10px;
+                        }
+                        span{
+                            font-size: 13px;
+                            padding: 0 10px;
+                        }
+                    }
+                }
+                .context{
+                    width: 100%;
+                    .item{
+                        width: 100%;
+                        display: flex;
+                        flex-wrap: wrap;
+                        dl{
+                            width: 22%;
+                            height: 240px;
+                            margin-right: 2.5%;
+                            margin-bottom: 5px;
+                            dt{
+                                width: 100%;
+                                height: 67%;
+                                img{
+                                    width: 100%;
+                                    height: 100%;
+                                }
+                            }
+                            dd{
+                                width: 100%;
+                                height: 33%;
+                                p{
+                                    margin-bottom: 0;
+                                    font-size: 13px;
+                                    margin-top: 5px;
+                                }
+                                .title{
+                                }
+                                .name{
+                                    width: 100%;
+                                    display: flex;
+                                    justify-content: space-between;
+                                    margin-top: 5px;
+                                    span{
+                                        font-size: 14px;
+                                    }
+                                    em{
+                                        font-size: 12px;
+                                        color:#989898;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                    .ant-pagination{
+                        display: flex;
+                        justify-content: flex-end;
+                        margin-top: 10px;
+                    }
+                }
+            }
+            .el-photo{
+                width: 97%;
+                height: 300px;
+                background: #fff;
+                margin: 1.5% 1.5%;
+                .title{
+                    width: 100%;
+                    height: 40px;
+                    display: flex;
+                    align-items: center;
+                    span{
+                        background: #0c44a1;
+                        width: 4px;
+                        height:19px;
+                        margin: 0 10px;
+                        display: block;
+                    }
+                    b{
+                        color:#0c44a1;
+                        font-size: 14px;
+                    }
+                }
+                .context{
+                    width: 100%;
+                    height: 260px;
+                    display: flex;
+                    flex-wrap: wrap;
+                    dl{
+                        width: 130px;
+                        height: 100%;
+                        padding-top: 15px;
+                        margin: 0 2.3%;
+                        dt{
+                            width: 100%;
+                            height: 130px;
+                            img{
+                                width: 100%;
+                                height: 100%;
+                            }
+                        }
+                        dd{
+                            width: 100%;
+                            // height: 110px;
+                            p{
+                                margin-bottom: 0;
+                                display: flex;
+                                align-items: center;
+                                justify-content: center;
+                            }
+                            .name{
+                                color:#4a4a4a;
+                                font-size: 13px;
+                                margin-bottom: 3px;
+                            }
+                            .qu{
+                                color:#c8c8c8;
+                                font-size: 12px;
+                            }
+                            .pm{
+                                color:#0c44a1;
+                                font-size: 20px;
+                                margin-top: 3px;
+                            }
+                        }
+                    }
+                }
+            }
+            .el-title{
+                width: 97%;
+                background: #fff;
+                margin-left: 1.5%;
+                .title{
+                    width: 100%;
+                    height: 40px;
+                    display: flex;
+                    align-items: center;
+                    span{
+                        background: #0c44a1;
+                        width: 4px;
+                        height:19px;
+                        margin: 0 10px;
+                        display: block;
+                    }
+                    b{
+                        color:#0c44a1;
+                        font-size: 14px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.ant-layout-content::-webkit-scrollbar {
+    display: none;
+}
+

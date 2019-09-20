@@ -1,0 +1,33 @@
+.el-head{
+  .ant-checkbox-wrapper{
+    margin-left: 0;
+    >span:nth-child(2){
+      font-size: 11px;
+      padding: 0px; 
+      margin-right: 15px;
+    }
+    .ant-checkbox-checked::after{
+      border: 0;
+    }
+    .ant-checkbox{
+      width: 12px;
+      height: 12px;
+      margin-right: 4px;
+      .ant-checkbox-input{
+        width: 12px;
+        height: 12px;
+        display: flex;
+        align-items: center;
+        span{
+          width: 12px;
+          height: 12px;  
+        }
+      }
+      .ant-checkbox-inner{
+        width: 12px;
+        height: 12px;
+        display: block;
+      }
+    }
+  }
+}

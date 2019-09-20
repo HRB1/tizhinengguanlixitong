@@ -1,0 +1,48 @@
+.kqtj{
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  .moreBox{
+    margin: 9px 20px 16px 15px;
+  }
+  .tab{
+    padding-left: 22px;
+  }
+  .tableBox{
+    margin: 0 18px 0 17px;
+  }
+  .lineBox{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    .search{
+      height: 28px;
+      margin: 15px 0 20px 30px;
+      input{
+        width: 145px;
+        height: 28px;
+      }
+      .ant-tag{
+        width: 52px;
+        height: 26px;
+        line-height: 24px;
+        text-align: center;
+      }
+      .ant-calendar-picker{
+        position: absolute;
+        right: 0;
+        top: -4px;
+        width: 145px;
+        height: 28px;
+        opacity: 0;
+        .ant-calendar-picker-input{
+          height: 28px;
+        }
+      }
+    }
+    .line{
+      flex: 1;
+      margin: 0 14px;
+    }
+  }
+}

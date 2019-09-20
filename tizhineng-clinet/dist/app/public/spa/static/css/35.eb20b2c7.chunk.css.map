@@ -1,0 +1,1 @@
+{"version":3,"sources":["D:\\实训一\\tizhineng\\tizhineng-client/src\\views\\checkWork\\ygkq.scss"],"names":[],"mappings":"AAAA,MACE,WAAY,CADd,SAGI,cAAe,CACf,gBAAiB,CACjB,QAAS,CACT,iBAAkB","file":"35.eb20b2c7.chunk.css","sourcesContent":[".ygkq{\r\n  height: 100%;\r\n  h2{\r\n    font-size: 15px;\r\n    line-height: 51px;\r\n    margin: 0;\r\n    padding-left: 27px;\r\n  }\r\n}"]}

@@ -1,0 +1,28 @@
+.wrap {
+  width: 100%;
+  height: 100vh;
+  background: url(http://photos.tuchong.com/1067414/f/31672046.jpg);
+  background-size: cover;
+  position: relative;
+  .content {
+    width: 400px;
+    height: 297px;
+    position: absolute;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    background: #fff;
+    right: 15%;
+    top: 25%;
+    box-sizing: border-box;
+    padding: 40px 20px;
+    .chooes{
+      margin-bottom: 10px;
+    }
+  }
+  .login-form-button{
+    width: 100%;
+    height: 40px;
+    background: #3662fe;
+    color: #fff;
+  }
+}
